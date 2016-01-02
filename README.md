@@ -1,6 +1,9 @@
 # HfPR
 
-This code implements the photometric stereo paper described in the paper "Height from Photometric Ratio with Model-based Light Source Selection".
+This code implements the photometric stereo method described in the paper "Height from Photometric Ratio with Model-based Light Source Selection".
+
+Reference
+---------
 
 If you use this code in your research, please cite the following paper:
 
