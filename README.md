@@ -12,9 +12,9 @@ W. A. P. Smith and F. Fang. "Height from Photometric Ratio with Model-based Ligh
 Bibtex:
 
 @article{smith2015height,  
-  title={Height from Photometric Ratio with Model-based Light Source Selection},  
-  author={Smith, William and Fang, Fufu},  
-  journal={Computer Vision and Image Understanding},  
-  year={2015},  
-  publisher={Elsevier}  
+    title={Height from Photometric Ratio with Model-based Light Source Selection},  
+    author={Smith, William and Fang, Fufu},  
+    journal={Computer Vision and Image Understanding},  
+    year={2015},  
+    publisher={Elsevier}  
 }  
