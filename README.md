@@ -10,7 +10,7 @@ This code implements the photometric stereo method described in the paper "Heigh
             for k=1:size(L,2)-1
                 pairs{row,col}(k,:)=[k k+1];
             end
-            pairs{i,j}(end+1,:)=[1 size(L,2)];
+            pairs{row,col}(end+1,:)=[1 size(L,2)];
         end
     end
 ```
