@@ -17,9 +17,11 @@ This code implements the photometric stereo method described in the paper "Heigh
 
 At both stages, you have the option of providing a binary foreground mask. If you don't wish to use a mask, simply pass all ones the same dimensions as the images.
 
+If you only want to run the second part of the code, please invoke HfPR.m. If you only want to run the first part of the code, please invoke guided_PS.m, and comment out the last line
+
 Demo Code
 ---------
-For a demo of the code repository, run demo.m. 
+For a demonstration of this code repository, please run demo.m. 
 
 Reference
 ---------
