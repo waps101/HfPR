@@ -17,6 +17,10 @@ This code implements the photometric stereo method described in the paper "Heigh
 
 At both stages, you have the option of providing a binary foreground mask. If you don't wish to use a mask, simply pass all ones the same dimensions as the images.
 
+Demo Code
+---------
+For a demo of the code repository, run demo.m. 
+
 Reference
 ---------
 
@@ -26,10 +30,30 @@ W. A. P. Smith and F. Fang. "Height from Photometric Ratio with Model-based Ligh
 
 Bibtex:
 
-    @article{smith2015height,  
-        title={Height from Photometric Ratio with Model-based Light Source Selection},  
-        author={W. A. P. Smith and F. Fang},  
-        journal={Computer Vision and Image Understanding},  
-        year={2015},  
-        publisher={Elsevier}  
-    }  
+    @article{smith2015height,
+        title={Height from Photometric Ratio with Model-based Light Source Selection},
+        author={W. A. P. Smith and F. Fang},
+        journal={Computer Vision and Image Understanding},
+        year={2015},
+        publisher={Elsevier}
+    }
+
+
+Third Party Licenses
+--------------------
+This repository ships with a copy of ransac.m from http://www.peterkovesi.com/matlabfns/Robust/ransac.m
+
+    Copyright (c) 2003-2013 Peter Kovesi
+    Centre for Exploration Targeting
+    The University of Western Australia
+    peter.kovesi at uwa edu au
+    http://www.csse.uwa.edu.au/~pk
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    The Software is provided "as is", without warranty of any kind.
