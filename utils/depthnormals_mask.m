@@ -12,13 +12,6 @@ function N = depthnormals_mask( z,mask )
 % Output:
 % N    - rows by cols by 3 array containing surface normals at each pixel
 %
-% Please cite: W. A. P. Smith and F. Fang. "Height from Photometric Ratio 
-% with Model-based Light Source Selection." Computer Vision and Image 
-% Understanding (2015). if you use this code in your research.
-%
-% William A. P. Smith
-% University of York
-% 2015
 
 rows = size(mask,1);
 cols = size(mask,2);
@@ -44,7 +37,7 @@ for row=1:rows
             % Now decide which combination of neighbours are present
             % This determines which version of the numerical
             % approximation to the surface gradients will be used
-            
+
             % Calculate X gradient
             if mask(row,col-1) && mask(row,col+1)
                 % Both X neighbours present
@@ -64,7 +57,7 @@ for row=1:rows
                 % Only forward in X
                 p(row,col)=z(row,col+1)-z(row,col);
             end
-            
+
             % Calculate Y gradient
             if mask(row-1,col) && mask(row+1,col)
                 % Both Y neighbours present
@@ -84,8 +77,8 @@ for row=1:rows
                 % Only forward in Y
                 q(row,col)=z(row+1,col)-z(row,col);
             end
-                
-            
+
+
             % Finished with a pixel
         end
     end
