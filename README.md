@@ -28,15 +28,17 @@ Reference
 
 If you use this code in your research, please cite the following paper:
 
-W. A. P. Smith and F. Fang. "Height from Photometric Ratio with Model-based Light Source Selection." Computer Vision and Image Understanding (2015).
+W. A. P. Smith and F. Fang. "Height from Photometric Ratio with Model-based Light Source Selection." Computer Vision and Image Understanding, Volume 145, pp. 128-138 (2016).
 
 Bibtex:
 
-    @article{smith2015height,
+    @article{smith2016height,
         title={Height from Photometric Ratio with Model-based Light Source Selection},
         author={W. A. P. Smith and F. Fang},
         journal={Computer Vision and Image Understanding},
-        year={2015},
+        volume={145},
+        pages={128--138},
+        year={2016},
         publisher={Elsevier}
     }
 
